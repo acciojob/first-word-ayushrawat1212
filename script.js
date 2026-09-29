@@ -3,7 +3,7 @@ function firstWord(s) {
 	const cleanStr = s.trim();
 
 	if(cleanStr === "") {
-		return str;
+		return cleanStr;
 	}
 
 	return cleanStr.split(' ')[0];
